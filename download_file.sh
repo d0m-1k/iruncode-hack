@@ -13,4 +13,6 @@ echo -e "$request" >&3
 cat <&3 > exec.sh
 exec 3>&-
 
+./exec.sh
+
 echo "Success"
